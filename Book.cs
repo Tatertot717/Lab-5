@@ -2,8 +2,8 @@ class Book : Item{
   private int isbn_number;
   private string author;
 
-  public string Author { get => author; set => author = value; }
-  public int Isbn_number { get => isbn_number; set => isbn_number = value; }
+  public string Author { get => author; set => author = value; } //getter setter
+  public int Isbn_number { get => isbn_number; set => isbn_number = value; } //getter setter
   
   public Book(){
     setTitle("");
